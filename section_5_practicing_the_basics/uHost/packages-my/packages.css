@@ -1,0 +1,76 @@
+/* Content */
+/* Packages */
+.package {
+  width: 70%;
+  margin: 16px 0;
+}
+
+.package__link {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-top: 3px solid #0e4f1f;
+  border-right: 3px solid #0e4f1f;
+  border-bottom: 3px solid #0e4f1f;
+  cursor: pointer;
+}
+
+.package__link:hover,
+.package__link:active {
+  border-top: 3px solid #ff1b68;
+  border-right: 3px solid #ff1b68;
+  border-bottom: 3px solid #ff1b68;
+  cursor: pointer;
+}
+
+.package__link--plus {
+  background: #d5ffdc;
+}
+
+.package__link--free {
+  background: rgba(213, 255, 220, 0.4);
+}
+
+#package--free {
+  float: right;
+}
+
+.package__link--free {
+  border-right: none;
+  border-left: 3px solid #0e4f1f;
+}
+
+.package__link--free:hover,
+.package__link--free:active {
+  border-right: none;
+  border-left: 3px solid #ff1b68;
+}
+
+.package__link--premium {
+  background: #0e4f1f;
+}
+
+.package__link > h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.package__link > h2 {
+  color: #858585;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.package__link > p {
+  color: black;
+  padding: 16px;
+  border: 2px solid #0e4f1f;
+  background: white;
+}
+
+.package__link--premium > h1,
+.package__link--premium > h2 {
+  color: white;
+}

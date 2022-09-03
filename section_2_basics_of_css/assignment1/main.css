@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+#assignment-instructions {
+  color: palevioletred;
+  font-family: sans-serif;
+}
+
+.second-code-selector {
+  color: darkgreen;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+/* or li + li */
+ol > li + li {
+  background: black;
+  color: white;
+}
+
+/* li */
+ol > li {
+  background: black;
+  color: white;
+}

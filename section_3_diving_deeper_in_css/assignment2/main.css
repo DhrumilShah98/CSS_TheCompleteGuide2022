@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.main-box {
+  padding: 8px 32px 16px 64px;
+  border: 3px solid black;
+  color: pink;
+  background-color: blueviolet;
+  font-size: 22px;
+  margin: 4px 16px 8px 32px;
+}
+
+.main-div-1 {
+  height: 300px;
+  width: 50%;
+  display: inline-block;
+  /* display: none */ /* Hides the first box and no space is preserved on the webpage */
+  visibility: hidden; /* Hides the first box but preserves it's space on the webpage */
+}
+
+.main-div-2 {
+  display: inline-block;
+}
+
+.main-div-2:hover {
+  background-color: pink;
+  color: blueviolet;
+}
